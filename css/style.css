@@ -89,6 +89,12 @@ h4 {
     font-weight: 800;
 }
 
+.presentation > h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: inherit;
+}
 /*----------------
     BUTTONS
 ------------------*/
@@ -165,12 +171,6 @@ main {
     line-height: 1.7;
 }
 
-.img-tiramisu {
-    width: 300px;
-    margin: auto;
-    display: block;
-}
-
 .social-icons {
     width: 100%;
     display: flex;
@@ -205,6 +205,29 @@ main {
 .social-icons i > .icon-text {
     display: none;
 }
+
+.img-fluid.ads {
+    display: none;
+}
+
+/* PRESENTATION SECTION */
+    .presentation hr {
+        width: 15%;
+        margin: 20px 0;
+        border-color: #F7972E;
+    }
+
+    .img-tiramisu {
+        width: 350px;
+        margin: auto;
+        display: block;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 15px;
+    }
+
+    .presentation > p {
+        margin: 20px 0;
+        line-height: 2;
+    }
 /*----------------
     FOOTER
 ------------------*/
@@ -242,6 +265,16 @@ main {
 
     .social-icons i{
         padding: 15px 60px;
+    }
+
+    .img-tiramisu {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .img-fluid.ads {
+        display: block;
+        margin: 30px 0;
     }
 }
 
