@@ -171,6 +171,40 @@ main {
     display: block;
 }
 
+.social-icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-icons i {
+    font-size: 22px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 15px;
+}
+
+.fa-facebook {
+    color: #1A77F3;
+}
+.fa-twitter {
+    color: #009EFF;
+}
+.fa-instagram {
+    color: #E5788A;
+}
+.fa-pinterest {
+    color: #E62222;
+}
+.fa-youtube {
+    color: #E62222;
+}
+
+.social-icons i > .icon-text {
+    display: none;
+}
 /*----------------
     FOOTER
 ------------------*/
@@ -205,6 +239,10 @@ main {
         flex-wrap: wrap;
         gap: 35px;
     }
+
+    .social-icons i{
+        padding: 15px 60px;
+    }
 }
 
 /* Desktop da 992px a infinito */
@@ -226,4 +264,16 @@ main {
         line-height: 2;
     }
 
+    .social-icons i{
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+
+    .social-icons i > .icon-text {
+        display: inline;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+    }
 }
