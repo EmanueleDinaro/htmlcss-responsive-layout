@@ -272,6 +272,10 @@ footer ul a {
         text-align: left;
     }
 
+    h2 {
+        font-size: 36px;
+    }
+
     .recipe-intro h2 > span {
         display: inline;
     }
@@ -311,6 +315,10 @@ footer ul a {
 
 /* Desktop da 992px a infinito */
 @media screen and (min-width: 992px) {
+    h2 {
+        font-size: 40px;
+    }
+    
     .recipe-intro .col-video {
         width: 70%;
     }
