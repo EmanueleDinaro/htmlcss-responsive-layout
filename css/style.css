@@ -157,7 +157,7 @@ main {
 }
 
 .col-details h4 {
-    margin: 0 0 15px 0;
+    margin-bottom: 15px;
 }
 
 .col-details ul{
@@ -212,7 +212,18 @@ main {
     .recipe-intro .col-video {
         width: 70%;
     }
+
     .recipe-intro .col-details {
         width: 30%;
     }
+
+    .col-details h4 {
+        margin-bottom: 15px;
+    }
+
+    .col-details ul{
+        display: block;
+        line-height: 2;
+    }
+
 }
